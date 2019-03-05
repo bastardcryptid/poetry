@@ -68,6 +68,7 @@ div.subcollection{
 
 .upto{
 	position:fixed;
+	display:none;
 	left:7%;
 	bottom:10%;
 	width:50px;

@@ -90,11 +90,6 @@ a{
 	color: hsl(214, 41%, 85%);
 }
 
-.button:hover ~ .page {
-	width: 10%;
-	padding-bottom: 10%;
-}
-
 h2,h3,h4{
 	font-weight: normal;
 }
