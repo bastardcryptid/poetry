@@ -58,7 +58,7 @@ div.subcollection{
 }
 
 
-.number{
+.number, .numbers{
 	position:absolute;
 	right:0%;
 	margin:0px;
