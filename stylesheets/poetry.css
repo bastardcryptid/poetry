@@ -129,6 +129,10 @@ h3:hover>.comment{
 	display:block;
 }
 
+.small{
+	max-width:40%;
+}
+
 .indent{
 	width:100%;
 	margin:0px;
@@ -151,4 +155,10 @@ h3:hover>.comment{
 .add{
 	color:rgb(180,180,180);
 	font-size:.8em;
+	border-bottom: 1px dashed rgb(180,180,180);
+	cursor: pointer;
+}
+
+.faint{
+	color: hsl(0,0%,80%);
 }

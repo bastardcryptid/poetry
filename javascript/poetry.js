@@ -18,4 +18,16 @@ $(document).ready(function(){
 		console.log(last);
 		subcoll[i].innerHTML=first+"-"+last;
 	}
+
+	var murderer=false;
+
+	$(".add").click(function(){
+		$(".even").toggle("swing");
+		if(murderer){
+			document.getElementById("isfriend").src="../images/yourfriend.png";	
+		} else{
+			document.getElementById("isfriend").src="../images/myfriend.png";	
+		}
+		murderer=!murderer;
+	})
 })
